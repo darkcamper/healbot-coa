@@ -446,7 +446,8 @@ HealBot_GlobalsDefaults = {
             [HEALBOT_SUNSHINE]=2,
             [HEALBOT_HOPE]=2,
             [HEALBOT_SHINE]=2,
-            [HEALBOT_FROG_VENOM]=3
+            [HEALBOT_SG_TOUCH_OF_LIGHT]=2,
+            [HEALBOT_FROG_VENOM]=3,
             -- End CoA --
         },
         ["WITCHDOCTOR"] = {
@@ -454,6 +455,7 @@ HealBot_GlobalsDefaults = {
             [HEALBOT_SUNSHINE]=3,
             [HEALBOT_HOPE]=3,
             [HEALBOT_SHINE]=3,
+            [HEALBOT_SG_TOUCH_OF_LIGHT]=3,
             [HEALBOT_FROG_VENOM]=2
             -- End CoA --
         },

@@ -1915,6 +1915,14 @@ function HealBot_configSunClericClassHoT(class)
     else
         HealBot_Watch_HoT[HEALBOT_SHINE]=nil
     end
+
+    if hbClassHoTwatch[HEALBOT_SG_TOUCH_OF_LIGHT]==3 then
+        HealBot_Watch_HoT[HEALBOT_SG_TOUCH_OF_LIGHT]="A"
+    elseif hbClassHoTwatch[HEALBOT_SG_TOUCH_OF_LIGHT]==2 and class==HealBot_Class_En[HEALBOT_SUNCLERIC] then
+        HealBot_Watch_HoT[HEALBOT_SG_TOUCH_OF_LIGHT]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_SG_TOUCH_OF_LIGHT]=nil
+    end
 end
 
 function HealBot_configWitchDoctorClassHoT(class)

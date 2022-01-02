@@ -32,6 +32,10 @@ HEALBOT_BLIGHTBREAKER                   = "Blightbreaker";
 HEALBOT_ILLUMINATION                    = "Illumination";
 HEALBOT_PRAYER_OF_SANDS                 = "Prayer of the Sands";
 HEALBOT_REVIVIFY                        = "Revivify";
+HEALBOT_SOLAR_GUIDANCE                  = "Solar Guidance";
+HEALBOT_SG_TOUCH_OF_LIGHT               = "Guidance: Touch of Light";
+HEALBOT_SG_CALAMITY                     = "Guidance: Calamity";
+HEALBOT_SHATTER_CURSE                   = "Shatter Curse";
 
 HEALBOT_VOODOO_ALCHEMY                  = "Voodoo Alchemy";
 HEALBOT_GIFT_OF_THE_LOA                 = "Gift of the Loa";
