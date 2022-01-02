@@ -364,6 +364,27 @@ HealBot_GlobalsDefaults = {
         -- CoA --
         ["SUNCLERIC"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
         ["WITCHDOCTOR"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["SPIRITMAGE"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["PYROMANCER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["REAPER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["WITCHDOCTOR"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["FLESHWARDEN"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["WITCHHUNTER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["PROPHET"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["RANGER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["GUARDIAN"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["WILDWALKER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["NECROMANCER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["BARBARIAN"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["TINKER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["STARCALLER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["CHRONOMANCER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["CULTIST"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["RIFTBLADE"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["SONOFARUGAL"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["ABOMINATION"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["TIDECALLER"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
+        ["MONK"] = {[1] = 1, [2] = 1, [3] = 1, [4] = 1},
         -- End Coa
     },
     WatchHoT = {
@@ -459,7 +480,27 @@ HealBot_GlobalsDefaults = {
             [HEALBOT_FROG_VENOM]=2
             -- End CoA --
         },
-
+        ["SPIRITMAGE"] = {},
+        ["PYROMANCER"] = {},
+        ["REAPER"] = {},
+        ["WITCHDOCTOR"] = {},
+        ["FLESHWARDEN"] = {},
+        ["WITCHHUNTER"] = {},
+        ["PROPHET"] = {},
+        ["RANGER"] = {},
+        ["GUARDIAN"] = {},
+        ["WILDWALKER"] = {},
+        ["NECROMANCER"] = {},
+        ["BARBARIAN"] = {},
+        ["TINKER"] = {},
+        ["STARCALLER"] = {},
+        ["CHRONOMANCER"] = {},
+        ["CULTIST"] = {},
+        ["RIFTBLADE"] = {},
+        ["SONOFARUGAL"] = {},
+        ["ABOMINATION"] = {},
+        ["TIDECALLER"] = {},
+        ["MONK"] = {},
         -- End Coa
 
         ["DRUID"] = {

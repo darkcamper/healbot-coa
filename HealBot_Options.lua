@@ -79,6 +79,27 @@ local HealBot_Buff_Spells_Total_List = {
     ["WITCHDOCTOR"] = {
         HEALBOT_VOODOO_ALCHEMY
     },
+    ["SPIRITMAGE"] = {},
+    ["PYROMANCER"] = {},
+    ["REAPER"] = {},
+    ["WITCHDOCTOR"] = {},
+    ["FLESHWARDEN"] = {},
+    ["WITCHHUNTER"] = {},
+    ["PROPHET"] = {},
+    ["RANGER"] = {},
+    ["GUARDIAN"] = {},
+    ["WILDWALKER"] = {},
+    ["NECROMANCER"] = {},
+    ["BARBARIAN"] = {},
+    ["TINKER"] = {},
+    ["STARCALLER"] = {},
+    ["CHRONOMANCER"] = {},
+    ["CULTIST"] = {},
+    ["RIFTBLADE"] = {},
+    ["SONOFARUGAL"] = {},
+    ["ABOMINATION"] = {},
+    ["TIDECALLER"] = {},
+    ["MONK"] = {},
     -- End CoA --
     ["DRUID"] = {
         HEALBOT_MARK_OF_THE_WILD,
@@ -231,6 +252,27 @@ local HealBot_Debuff_Spells = {
   ["WITCHDOCTOR"] = {
     HEALBOT_ALLCURE_ELIXIR,
   },
+  ["SPIRITMAGE"] = {},
+    ["PYROMANCER"] = {},
+    ["REAPER"] = {},
+    ["WITCHDOCTOR"] = {},
+    ["FLESHWARDEN"] = {},
+    ["WITCHHUNTER"] = {},
+    ["PROPHET"] = {},
+    ["RANGER"] = {},
+    ["GUARDIAN"] = {},
+    ["WILDWALKER"] = {},
+    ["NECROMANCER"] = {},
+    ["BARBARIAN"] = {},
+    ["TINKER"] = {},
+    ["STARCALLER"] = {},
+    ["CHRONOMANCER"] = {},
+    ["CULTIST"] = {},
+    ["RIFTBLADE"] = {},
+    ["SONOFARUGAL"] = {},
+    ["ABOMINATION"] = {},
+    ["TIDECALLER"] = {},
+    ["MONK"] = {},
   -- End CoA --
   ["PALADIN"] = {
     HEALBOT_PURIFY,
@@ -287,6 +329,11 @@ local HealBot_Debuff_Types = {
   [HEALBOT_STONEFORM] = {HEALBOT_DISEASE_en, HEALBOT_POISON_en},
   [HEALBOT_CLEANSE_SPIRIT] = {HEALBOT_DISEASE_en, HEALBOT_POISON_en, HEALBOT_CURSE_en},
   [HEALBOT_CURE_TOXINS] = {HEALBOT_DISEASE_en, HEALBOT_POISON_en},
+
+  -- CoA Debuff --
+  [HEALBOT_BLIGHTBREAKER] = {HEALBOT_DISEASE_en, HEALBOT_MAGIC_en},
+  [HEALBOT_SHATTER_CURSE] = {HEALBOT_CURSE_en},
+  [HEALBOT_ALLCURE_ELIXIR] = {HEALBOT_DISEASE_en, HEALBOT_POISON_en, HEALBOT_CURSE_en},
 }
 
 local CPUProfiler=0

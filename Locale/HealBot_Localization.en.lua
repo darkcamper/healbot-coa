@@ -22,7 +22,8 @@ HEALBOT_DEATHKNIGHT                     = "Death Knight";
 
 --- CoA Classes ---
 HEALBOT_SUNCLERIC                       = "Sun Cleric";
-HEALBOT_WITCHDOCTOR                     = "Witch Doctor"
+HEALBOT_WITCHDOCTOR                     = "Witch Doctor";
+HEALBOT_XOROTH                          = "Knight of Xoroth";
 
 --- CoA Spells ---
 HEALBOT_SUNSHINE                        = "Sunshine";
