@@ -24,36 +24,44 @@ HEALBOT_DEATHKNIGHT                     = "Death Knight";
 HEALBOT_SUNCLERIC                       = "Sun Cleric";
 HEALBOT_WITCHDOCTOR                     = "Witch Doctor";
 HEALBOT_XOROTH                          = "Knight of Xoroth";
+HEALBOT_CHRONOMANCER                    = "Chronomancer"
 
 --- CoA Spells ---
-HEALBOT_SUNSHINE                        = "Sunshine" or GetSpellInfo(500142);
-HEALBOT_HOPE                            = "Hope" or GetSpellInfo(804512);
-HEALBOT_SHINE                           = "Shine" or GetSpellInfo(800357);
-HEALBOT_BLIGHTBREAKER                   = "Blightbreaker" or GetSpellInfo(804050);
-HEALBOT_ILLUMINATION                    = "Illumination" or GetSpellInfo(20210);
-HEALBOT_PRAYER_OF_SANDS                 = "Prayer of the Sands" or GetSpellInfo(500147);
-HEALBOT_REVIVIFY                        = "Revivify" or GetSpellInfo(801790);
-HEALBOT_SOLAR_GUIDANCE                  = "Solar Guidance" or GetSpellInfo(804247);
-HEALBOT_SG_TOUCH_OF_LIGHT               = "Guidance: Touch of Light" or GetSpellInfo(804251);
-HEALBOT_SG_CALAMITY                     = "Guidance: Calamity" or GetSpellInfo(804249);
-HEALBOT_SHATTER_CURSE                   = "Shatter Curse" or GetSpellInfo(804067);
+HEALBOT_SUNSHINE                        = GetSpellInfo(804224) or "Sunshine";
+HEALBOT_HOPE                            = GetSpellInfo(804512) or "Hope";
+HEALBOT_SHINE                           = GetSpellInfo(800357) or "Shine";
+HEALBOT_BLIGHTBREAKER                   = GetSpellInfo(804050) or "Blightbreaker";
+HEALBOT_ILLUMINATION                    = GetSpellInfo(500143) or "Illumination";
+HEALBOT_PRAYER_OF_SANDS                 = GetSpellInfo(500147) or "Prayer of the Sands";
+HEALBOT_REVIVIFY                        = GetSpellInfo(801790) or "Revivify";
+HEALBOT_SOLAR_GUIDANCE                  = GetSpellInfo(804247) or "Solar Guidance";
+HEALBOT_SG_TOUCH_OF_LIGHT               = GetSpellInfo(804251) or "Guidance: Touch of Light";
+HEALBOT_SG_CALAMITY                     = GetSpellInfo(804249) or "Guidance: Calamity";
+HEALBOT_SHATTER_CURSE                   = GetSpellInfo(804067) or "Shatter Curse";
 
-HEALBOT_VOODOO_ALCHEMY                  = "Voodoo Alchemy" or GetSpellInfo(800195);
-HEALBOT_GIFT_OF_THE_LOA                 = "Gift of the Loa" or GetSpellInfo(500016);
-HEALBOT_VOODOO_SERPENT_BEAM             = "Voodoo Serpent Beam" or GetSpellInfo(501105);
-HEALBOT_RECLAIM_SOUL                    = "Reclaim Soul" or GetSpellInfo(801796);
-HEALBOT_ALLCURE_ELIXIR                  = "Allcure Elixir" or GetSpellInfo(804049);
-HEALBOT_VOODOO_PUDDLE                   = "Voodoo Puddle" or GetSpellInfo(500013);
-HEALBOT_POTION_TOSS                     = "Potion Toss" or GetSpellInfo(801661);
-HEALBOT_ING_FROG_VENOM                  = "Ingredient: Frog Venom" or GetSpellInfo(801662);
-HEALBOT_FROG_VENOM                      = "Frog Venom" or GetSpellInfo(802969);
-HEALBOT_STRANGE_ELIXIR                  = "Strange Elixir" or GetSpellInfo(801670);
-HEALBOT_PANTHER_POUNCE                  = "Panther's Pounce" or GetSpellInfo(802981);
-HEALBOT_REVITALIZE                      = "Revitalize" or GetSpellInfo(801667);
+HEALBOT_VOODOO_ALCHEMY                  = GetSpellInfo(800195) or "Voodoo Alchemy";
+HEALBOT_GIFT_OF_THE_LOA                 = GetSpellInfo(500016) or "Gift of the Loa";
+HEALBOT_VOODOO_SERPENT_BEAM             = GetSpellInfo(501105) or "Voodoo Serpent Beam" ;
+HEALBOT_RECLAIM_SOUL                    = GetSpellInfo(801796) or "Reclaim Soul";
+HEALBOT_ALLCURE_ELIXIR                  = GetSpellInfo(804049) or "Allcure Elixir";
+HEALBOT_VOODOO_PUDDLE                   = GetSpellInfo(500013) or "Voodoo Puddle";
+HEALBOT_POTION_TOSS                     = GetSpellInfo(801661) or "Potion Toss" ;
+HEALBOT_ING_FROG_VENOM                  = GetSpellInfo(801662) or "Ingredient: Frog Venom";
+HEALBOT_FROG_VENOM                      = GetSpellInfo(802969) or "Frog Venom";
+HEALBOT_STRANGE_ELIXIR                  = GetSpellInfo(801670) or "Strange Elixir";
+HEALBOT_PANTHER_POUNCE                  = GetSpellInfo(802981) or "Panther's Pounce";
+HEALBOT_REVITALIZE                      = GetSpellInfo(801667) or "Revitalize";
+
+HEALBOT_REVERSE_WOUND                   = GetSpellInfo(801303) or "Reverse Wound";
+HEALBOT_ACCELERATED_RECOVERY            = GetSpellInfo(800857) or "Accelerated Recovery";
+HEALBOT_TIMEGUARD                       = GetSpellInfo(804441) or "Timeguard";
+HEALBOT_QUICKSPELL                      = GetSpellInfo(804463) or "Quickspell";
+HEALBOT_DISTORTION                      = GetSpellInfo(801270) or "Distortion";
+HEALBOT_FORTIFY_TIMELINE                = GetSpellInfo(804491) or "Fortify Timeline";
 
 --- CoA Debuffs ---
-HEALBOT_DEBUFF_CURED                    = "Cured" or GetSpellInfo(804411);
-HEALBOT_DEBUFF_SLIGHTLY_DIZZY           = "Slightly Dizzy" or GetSpellInfo(804410);
+HEALBOT_DEBUFF_CURED                    = GetSpellInfo(804411) or "Cured";
+HEALBOT_DEBUFF_SLIGHTLY_DIZZY           = GetSpellInfo(804410) or "Slightly Dizzy";
 
 HEALBOT_CUSTOM_CAT_COA  = "Conquest of Azeroth";
 

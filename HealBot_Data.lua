@@ -468,6 +468,8 @@ HealBot_GlobalsDefaults = {
             [HEALBOT_SHINE]=2,
             [HEALBOT_SG_TOUCH_OF_LIGHT]=2,
             [HEALBOT_FROG_VENOM]=3,
+            [HEALBOT_VOODOO_PUDDLE]=3,
+            [HEALBOT_ACCELERATED_RECOVERY]=3,
             -- End CoA --
         },
         ["WITCHDOCTOR"] = {
@@ -476,7 +478,20 @@ HealBot_GlobalsDefaults = {
             [HEALBOT_HOPE]=3,
             [HEALBOT_SHINE]=3,
             [HEALBOT_SG_TOUCH_OF_LIGHT]=3,
-            [HEALBOT_FROG_VENOM]=2
+            [HEALBOT_FROG_VENOM]=2,
+            [HEALBOT_VOODOO_PUDDLE]=2,
+            [HEALBOT_ACCELERATED_RECOVERY]=3,
+            -- End CoA --
+        },
+        ["CHRONOMANCER"] = {
+            -- CoA (HOTS)--
+            [HEALBOT_SUNSHINE]=3,
+            [HEALBOT_HOPE]=3,
+            [HEALBOT_SHINE]=3,
+            [HEALBOT_SG_TOUCH_OF_LIGHT]=3,
+            [HEALBOT_FROG_VENOM]=3,
+            [HEALBOT_VOODOO_PUDDLE]=3,
+            [HEALBOT_ACCELERATED_RECOVERY]=2,
             -- End CoA --
         },
         ["SPIRITMAGE"] = {},
@@ -493,7 +508,6 @@ HealBot_GlobalsDefaults = {
         ["BARBARIAN"] = {},
         ["TINKER"] = {},
         ["STARCALLER"] = {},
-        ["CHRONOMANCER"] = {},
         ["CULTIST"] = {},
         ["RIFTBLADE"] = {},
         ["SONOFARUGAL"] = {},

@@ -1952,6 +1952,17 @@ function HealBot_configWitchDoctorClassHoT(class)
     end
 end
 
+function HealBot_configChronomancerClassHoT(class)
+
+    if hbClassHoTwatch[HEALBOT_ACCELERATED_RECOVERY]==3 then
+        HealBot_Watch_HoT[HEALBOT_ACCELERATED_RECOVERY]="A"
+    elseif hbClassHoTwatch[HEALBOT_ACCELERATED_RECOVERY]==2 and class==HealBot_Class_En[HEALBOT_CHRONOMANCER] then
+        HealBot_Watch_HoT[HEALBOT_ACCELERATED_RECOVERY]="C"
+    else
+        HealBot_Watch_HoT[HEALBOT_ACCELERATED_RECOVERY]=nil
+    end
+end
+
 -- End CoA HOTS --
 
 function HealBot_configClassHoT(class, race)
@@ -1959,6 +1970,7 @@ function HealBot_configClassHoT(class, race)
 
     HealBot_configSunClericClassHoT(class);
     HealBot_configWitchDoctorClassHoT(class);
+    HealBot_configChronomancerClassHoT(class);
 
     if hbClassHoTwatch[HEALBOT_GUARDIAN_SPIRIT]==3 then
         HealBot_Watch_HoT[HEALBOT_GUARDIAN_SPIRIT]="A"
