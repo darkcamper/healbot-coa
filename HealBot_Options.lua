@@ -77,7 +77,7 @@ local HealBot_Buff_Spells_Total_List = {
 
     },
     ["WITCHDOCTOR"] = {
-        HEALBOT_VOODOO_ALCHEMY
+        HEALBOT_VOODOO_ALCHEMY,
     },
     ["SPIRITMAGE"] = {},
     ["PYROMANCER"] = {},
@@ -93,7 +93,9 @@ local HealBot_Buff_Spells_Total_List = {
     ["BARBARIAN"] = {},
     ["TINKER"] = {},
     ["STARCALLER"] = {},
-    ["CHRONOMANCER"] = {},
+    ["CHRONOMANCER"] = {
+        HEALBOT_ACCELERATED_LEARNING,
+    },
     ["CULTIST"] = {},
     ["RIFTBLADE"] = {},
     ["SONOFARUGAL"] = {},
@@ -266,7 +268,9 @@ local HealBot_Debuff_Spells = {
     ["BARBARIAN"] = {},
     ["TINKER"] = {},
     ["STARCALLER"] = {},
-    ["CHRONOMANCER"] = {},
+    ["CHRONOMANCER"] = {
+        HEALBOT_FIZZLE,
+    },
     ["CULTIST"] = {},
     ["RIFTBLADE"] = {},
     ["SONOFARUGAL"] = {},
@@ -334,6 +338,7 @@ local HealBot_Debuff_Types = {
   [HEALBOT_BLIGHTBREAKER] = {HEALBOT_DISEASE_en, HEALBOT_MAGIC_en},
   [HEALBOT_SHATTER_CURSE] = {HEALBOT_CURSE_en},
   [HEALBOT_ALLCURE_ELIXIR] = {HEALBOT_DISEASE_en, HEALBOT_POISON_en, HEALBOT_CURSE_en},
+  [HEALBOT_FIZZLE] = {HEALBOT_MAGIC_en},
 }
 
 local CPUProfiler=0
@@ -2968,6 +2973,7 @@ local HealBot_Options_SelectHealSpellsCombo_List = {
     HEALBOT_ACCELERATED_RECOVERY,
     HEALBOT_FORTIFY_TIMELINE,
     HEALBOT_DISTORTION,
+    HEALBOT_REMAKE,
 }
 local hbHelpHealSelect=nil
 local hbHealDDlist=nil
@@ -3072,6 +3078,11 @@ local HealBot_Options_SelectOtherSpellsCombo_List = {
 
     HEALBOT_TIMEGUARD,
     HEALBOT_QUICKSPELL,
+    HEALBOT_SPELL_DEFLECTION,
+    HEALBOT_FIZZLE,
+    HEALBOT_FLEETING_VISION,
+    HEALBOT_TITANS_GAZE,
+    HEALBOT_TIMELORDS_TOUGHNESS,
 }
 local hbHelpOtherSelect=nil
 local hbOtherDDlist=nil

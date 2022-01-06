@@ -58,6 +58,13 @@ HEALBOT_TIMEGUARD                       = GetSpellInfo(804441) or "Timeguard";
 HEALBOT_QUICKSPELL                      = GetSpellInfo(804463) or "Quickspell";
 HEALBOT_DISTORTION                      = GetSpellInfo(801270) or "Distortion";
 HEALBOT_FORTIFY_TIMELINE                = GetSpellInfo(804491) or "Fortify Timeline";
+HEALBOT_SPELL_DEFLECTION                = GetSpellInfo(501796) or "Spell Deflection";
+HEALBOT_REMAKE                          = GetSpellInfo(804501) or "Remake";
+HEALBOT_FIZZLE                          = GetSpellInfo(804490) or "Fizzle";
+HEALBOT_ACCELERATED_LEARNING            = GetSpellInfo(800852) or "Accelerated Learning";
+HEALBOT_FLEETING_VISION                 = GetSpellInfo(800863) or "Fleeting Vision";
+HEALBOT_TITANS_GAZE                     = GetSpellInfo(804462) or "Titan's Gaze";
+HEALBOT_TIMELORDS_TOUGHNESS             = GetSpellInfo(804420) or "Timelord's Toughness";
 
 --- CoA Debuffs ---
 HEALBOT_DEBUFF_CURED                    = GetSpellInfo(804411) or "Cured";

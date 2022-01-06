@@ -261,7 +261,9 @@ HealBot_Class_En = {
 
                 -- CoA --
                 [HEALBOT_SUNCLERIC]="SUNCLERIC",
-                [HEALBOT_WITCHDOCTOR]="WITCHDOCTOR"
+                [HEALBOT_WITCHDOCTOR]="WITCHDOCTOR",
+                [HEALBOT_XOROTH]="FLESHWARDEN",
+                [HEALBOT_CHRONOMANCER]="CHRONOMANCER",
 }
 
 HealBot_GlobalsDefaults = {
