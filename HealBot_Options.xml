@@ -5516,6 +5516,9 @@
                                             </Anchors>
                                         </FontString>
                                         <FontString name="HealBot_Options_Class_HoTctlNameText" text="HEALBOT_OPTIONS_ALLSPELLS" inherits="GameFontNormalSmall">
+											<FontHeight>
+												<AbsValue val="8"/>
+											</FontHeight>
                                             <Anchors>
                                                 <Anchor point="TOPLEFT">
                                                     <Offset>

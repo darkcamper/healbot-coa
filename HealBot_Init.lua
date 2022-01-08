@@ -828,15 +828,5 @@ end
 
 
 function HealBot_Init_SmartCast()
-    if HealBot_PlayerClassEN=="PRIEST" then
-        SmartCast_Res=HEALBOT_RESURRECTION;
-    elseif HealBot_PlayerClassEN=="DRUID" then
-        SmartCast_Res=HEALBOT_REVIVE;
-    elseif HealBot_PlayerClassEN=="PALADIN" then
-        SmartCast_Res=HEALBOT_REDEMPTION;
-    elseif HealBot_PlayerClassEN=="SHAMAN" then
-        SmartCast_Res=HEALBOT_ANCESTRALSPIRIT;
-    elseif HealBot_PlayerClassEN=="WITCHDOCTOR" then
-        SmartCast_Res=HEALBOT_RECLAIM_SOUL;
-    end
+    SmartCast_Res = HEALBOT_CLASS_INFO[HealBot_PlayerClass].Ress;
 end

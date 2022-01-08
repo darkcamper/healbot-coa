@@ -302,46 +302,21 @@ function HealBot_Action_SetrSpell()
     HealBot_bSpell=HealBot_GetBandageType()
     HealBot_dSpell=HealBot_GetBandageType()
     HealBot_rSpell=HealBot_GetBandageType()
-    if HealBot_PlayerClassEN=="DRUID" then
-        HealBot_hSpell=HEALBOT_REJUVENATION
-        HealBot_bSpell=HEALBOT_MARK_OF_THE_WILD
-        HealBot_dSpell=HEALBOT_CURE_POISON
-        HealBot_rSpell=HEALBOT_REVIVE
-    elseif HealBot_PlayerClassEN=="HUNTER" then
-        HealBot_hSpell=HEALBOT_MENDPET
-    elseif HealBot_PlayerClassEN=="MAGE" then
-        HealBot_bSpell=HEALBOT_ARCANE_INTELLECT
-        HealBot_dSpell=HEALBOT_REMOVE_CURSE
-    elseif HealBot_PlayerClassEN=="PALADIN" then
-        HealBot_hSpell=HEALBOT_HOLY_LIGHT
-        HealBot_bSpell=HEALBOT_BLESSING_OF_MIGHT
-        HealBot_dSpell=HEALBOT_PURIFY
-        HealBot_rSpell=HEALBOT_REDEMPTION
-    elseif HealBot_PlayerClassEN=="PRIEST" then
-        HealBot_hSpell=HEALBOT_LESSER_HEAL
-        HealBot_bSpell=HEALBOT_POWER_WORD_FORTITUDE
-        HealBot_dSpell=HEALBOT_CURE_DISEASE
-        HealBot_rSpell=HEALBOT_RESURRECTION
-    elseif HealBot_PlayerClassEN=="SHAMAN" then
-        HealBot_hSpell=HEALBOT_HEALING_WAVE
-        HealBot_bSpell=HEALBOT_WATER_SHIELD
-        HealBot_dSpell=HEALBOT_CURE_DISEASE
-        HealBot_rSpell=HEALBOT_ANCESTRALSPIRIT
-    elseif HealBot_PlayerClassEN=="WARLOCK" then
-        HealBot_bSpell=HEALBOT_UNENDING_BREATH
-        HealBot_hSpell=HEALBOT_HEALTH_FUNNEL
-    elseif HealBot_PlayerClassEN=="WARRIOR" then
-        if HealBot_GetSpellId(HEALBOT_VIGILANCE) then
-            HealBot_hSpell=HEALBOT_VIGILANCE
-            HealBot_bSpell=HEALBOT_VIGILANCE
-        end
-    elseif HealBot_PlayerClassEN=="SUNCLERIC" then
-        HealBot_hSpell=HEALBOT_ILLUMINATION
-    elseif HealBot_PlayerClassEN=="WITCHDOCTOR" then
-        HealBot_hSpell=HEALBOT_VOODOO_SERPENT_BEAM
-        HealBot_bSpell=HEALBOT_VOODOO_ALCHEMY
-        HealBot_rSpell=HEALBOT_RECLAIM_SOUL
+
+    defaults = HEALBOT_CLASS_INFO[HealBot_PlayerClass].Defaults;
+    if (defaults.Healing ~= nil) then
+        HealBot_hSpell=defaults.Healing;
     end
+    if (defaults.Buff ~= nil) then
+        HealBot_bSpell=defaults.Buff;
+    end
+    if (defaults.Dispel ~= nil) then
+        HealBot_dSpell=defaults.Dispel;
+    end
+    if (defaults.Ressing ~= nil) then
+        HealBot_rSpell=defaults.Ressing;
+    end
+
     HealBot_Set_debuffSpell(HealBot_dSpell)
 --    HealBot_SetrSpells(HealBot_hSpell,HealBot_bSpell,HealBot_dSpell,HealBot_rSpell)
 end
@@ -2475,43 +2450,13 @@ function HealBot_Action_setPoint()
     end
 end
 
-local hbClassCols = {
-          ["DRUID"] = {r=1.0,  g=0.49, b=0.04, },
-          ["HUNTER"] = {r=0.67, g=0.83, b=0.45, },
-          ["MAGE"] = {r=0.41, g=0.8,  b=0.94, },
-          ["PALADIN"] = {r=0.96, g=0.55, b=0.73, },
-          ["PRIEST"] = {r=1.0,  g=1.0,  b=1.0,  },
-          ["ROGUE"] = {r=1.0,  g=0.96, b=0.41, },
-          ["SHAMAN"] = {r=0.14, g=0.35, b=1.0,  },
-          ["WARLOCK"] = {r=0.58, g=0.51, b=0.79, },
-          ["DEATHKNIGHT"] = {r=0.78, g=0.04, b=0.04, },
-          ["WARRIOR"] = {r=0.78, g=0.61, b=0.43, },
-          -- CoA --
-          ["SUNCLERIC"] = {r=1.0,  g=0.49, b=0.04, },
-          ["SPIRITMAGE"] = {r=0.25,  g=0.78, b=0.92, }, -- Runemaster
-          ["PYROMANCER"] = {r=1.0,  g=0.19, b=0.06, },
-          ["REAPER"] = {r=0.77,  g=0.12, b=0.23, },
-          ["WITCHDOCTOR"] = {r=0.43,  g=1, b=0, },
-          ["FLESHWARDEN"] = {r=0.84,  g=0.28, b=0.28, },
-          ["WITCHHUNTER"] = {r=0.67,  g=0.83, b=0.45, },
-          ["PROPHET"] = {r=1.0,  g=0.49, b=0.04, }, -- Venomancer
-          ["RANGER"] = {r=1.0,  g=0.96, b=0.41, },
-          ["GUARDIAN"] = {r=0.78,  g=0.61, b=0.43, },
-          ["WILDWALKER"] = {r=0.05,  g=0.18, b=0.84, }, -- Primalist
-          ["NECROMANCER"] = {r=0.53,  g=0.49, b=0.04, },
-          ["BARBARIAN"] = {r=0.54,  g=0.2, b=0.01, },
-          ["TINKER"] = {r=0.64,  g=0.64, b=0.64, },
-          ["STARCALLER"] = {r=0.71,  g=1, b=1, },
-          ["CHRONOMANCER"] = {r=0.95,  g=0.9, b=0.06, },
-          ["CULTIST"] = {r=0.88,  g=0.78, b=1, },
-          ["RIFTBLADE"] = {r=1,  g=1, b=1, },
-          ["SONOFARUGAL"] = {r=0.8,  g=0.6, b=0, },
-          ["ABOMINATION"] = {r=1,  g=1, b=1, },
-          ["TIDECALLER"] = {r=1,  g=1, b=1, },
-          ["MONK"] = {r=1,  g=1, b=1, },
-          -- End CoA --
-      }
-      
+
+local hbClassCols = {};
+
+for c,v in pairs(RAID_CLASS_COLORS) do
+    hbClassCols[c] = {r=v["r"], g=v["g"], b=v["b"]};
+end
+
 function HealBot_Action_ClassColour(hbGUID, unit)
     class=nil
     if unit and UnitClass(unit) then

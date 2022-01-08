@@ -21,10 +21,29 @@ HEALBOT_WARRIOR                         = "Warrior";
 HEALBOT_DEATHKNIGHT                     = "Death Knight";
 
 --- CoA Classes ---
+HEALBOT_BARBARIAN                       = "Barbarian";
+HEALBOT_CHRONOMANCER                    = "Chronomancer";
+HEALBOT_CULTIST                         = "Cultist";
+HEALBOT_DEMON_HUNTER                    = "Demon Hunter";
+HEALBOT_GUARDIAN                        = "Guardian";
+HEALBOT_MONK                            = "Monk";
+HEALBOT_NECROMANCER                     = "Necromancer";
+HEALBOT_PRIMALIST                       = "Primalist";
+HEALBOT_PYROMANCER                      = "Pyromancer";
+HEALBOT_RANGER                          = "Ranger";
+HEALBOT_REAPER                          = "Reaper";
+HEALBOT_RUNEMASTER                      = "Runemaster";
+HEALBOT_STARCALLER                      = "Starcaller";
+HEALBOT_SON_OF_ARUGAL                   = "Son of Arugal";
+HEALBOT_STORMBRINGER                    = "Stormbringer";
 HEALBOT_SUNCLERIC                       = "Sun Cleric";
+HEALBOT_TINKER                          = "Tinker";
+HEALBOT_VENOMANCER                      = "Venomancer";
 HEALBOT_WITCHDOCTOR                     = "Witch Doctor";
+HEALBOT_WITCH_HUNTER                    = "Witch Hunter";
 HEALBOT_XOROTH                          = "Knight of Xoroth";
-HEALBOT_CHRONOMANCER                    = "Chronomancer"
+
+
 
 --- CoA Spells ---
 HEALBOT_SUNSHINE                        = GetSpellInfo(804224) or "Sunshine";
@@ -38,6 +57,7 @@ HEALBOT_SOLAR_GUIDANCE                  = GetSpellInfo(804247) or "Solar Guidanc
 HEALBOT_SG_TOUCH_OF_LIGHT               = GetSpellInfo(804251) or "Guidance: Touch of Light";
 HEALBOT_SG_CALAMITY                     = GetSpellInfo(804249) or "Guidance: Calamity";
 HEALBOT_SHATTER_CURSE                   = GetSpellInfo(804067) or "Shatter Curse";
+HEALBOT_DEVOTION                        = GetSpellInfo(500152) or "Devotion";
 
 HEALBOT_VOODOO_ALCHEMY                  = GetSpellInfo(800195) or "Voodoo Alchemy";
 HEALBOT_GIFT_OF_THE_LOA                 = GetSpellInfo(500016) or "Gift of the Loa";
@@ -66,9 +86,20 @@ HEALBOT_FLEETING_VISION                 = GetSpellInfo(800863) or "Fleeting Visi
 HEALBOT_TITANS_GAZE                     = GetSpellInfo(804462) or "Titan's Gaze";
 HEALBOT_TIMELORDS_TOUGHNESS             = GetSpellInfo(804420) or "Timelord's Toughness";
 
+HEALBOT_ELDRITCH_MENDING                = GetSpellInfo(500711) or "Eldritch Mending";
+HEALBOT_WHISPER                         = GetSpellInfo(800369) or "Whisper";
+HEALBOT_ELDRITCH_ARMOUR                 = GetSpellInfo(500715) or "Eldritch Armour";
+HEALBOT_AWAKENING                       = GetSpellInfo(801791) or "Awakening";
+
+HEALBOT_MOONWELL_SPLASH                 = GetSpellInfo(800370) or "Moonwell Splash";
+HEALBOT_CELESTIAL_AWAKENING             = GetSpellInfo(801795) or "Celestial Awakening";
+HEALBOT_MOONWATER_BLESSING              = GetSpellInfo(800382) or "Moonwater Blessing";
+HEALBOT_TORRENT                         = GetSpellInfo(800371) or "Torrent";
+
 --- CoA Debuffs ---
 HEALBOT_DEBUFF_CURED                    = GetSpellInfo(804411) or "Cured";
 HEALBOT_DEBUFF_SLIGHTLY_DIZZY           = GetSpellInfo(804410) or "Slightly Dizzy";
+
 
 HEALBOT_CUSTOM_CAT_COA  = "Conquest of Azeroth";
 
