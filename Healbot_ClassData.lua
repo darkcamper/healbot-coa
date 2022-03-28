@@ -387,11 +387,15 @@ HEALBOT_CLASS_INFO = {
         Ress = {HEALBOT_REVIVIFY},
         OtherSpells = {
             [HEALBOT_SOLAR_GUIDANCE] = {},
-            [HEALBOT_REVIVIFY] = {}
+            [HEALBOT_REVIVIFY] = {},
+            [HEALBOT_DIVINE_VISION] = {},
+            [HEALBOT_LIGHTWARD] = {},
         },
         Hots = {
             [HEALBOT_HOPE] = {},
             [HEALBOT_SUNSHINE] = {},
+            [HEALBOT_DIVINE_VISION] = {},
+            [HEALBOT_LIGHTWARD] = {}
         },
         Buffs = {
 
@@ -465,6 +469,7 @@ HEALBOT_CLASS_INFO = {
             [HEALBOT_POTION_TOSS] = {},
             [HEALBOT_STRANGE_ELIXIR] = {},
             [HEALBOT_REVITALIZE] = {},
+            [HEALBOT_SNAKEBLOOD_BREW] = {},
         },
         Ress = {HEALBOT_RECLAIM_SOUL},
         OtherSpells = {
@@ -476,6 +481,8 @@ HEALBOT_CLASS_INFO = {
             [HEALBOT_FROG_VENOM] = {},
             [HEALBOT_VOODOO_SERPENT_BEAM] = {},
             [HEALBOT_VOODOO_PUDDLE] = {},
+            [HEALBOT_SNAKEBLOOD_BREW] = {},
+            [HEALBOT_FISHBONES_ALLY] = {},
         },
         Buffs = {
             [HEALBOT_VOODOO_ALCHEMY] = {},
@@ -573,9 +580,11 @@ HEALBOT_CLASS_INFO = {
             [HEALBOT_GIFT_OF_THE_NAARU] = {},
             [HEALBOT_MENDPET] = {},
             [HEALBOT_HEALTH_FUNNEL] = {},
+            [HEALBOT_CAUTERIZING_FIRE] = {},
         },
         Ress = {HEALBOT_RESURRECTION,HEALBOT_ANCESTRALSPIRIT,HEALBOT_REBIRTH,HEALBOT_REDEMPTION},
         OtherSpells = {
+            [HEALBOT_DISPEL_CURSE] = {},
             [HEALBOT_INSPIRATION] = {},
             [HEALBOT_POWER_WORD_SHIELD] = {},
             [HEALBOT_REVIVE] = {},
@@ -675,6 +684,8 @@ HEALBOT_CLASS_INFO = {
             [HEALBOT_CHAINHEALHOT]={},
             [HEALBOT_TIDAL_WAVES]={},
             [HEALBOT_TIDAL_FORCE]={},
+            [HEALBOT_CAUTERIZING_FIRE] = {},
+            [HEALBOT_FRUGAL_DISPOSITION] = {},
         },
         Buffs = {
             [HEALBOT_MARK_OF_THE_WILD] = {} ,
@@ -778,6 +789,7 @@ HEALBOT_CLASS_INFO = {
             [HEALBOT_CLEANSE] = {HEALBOT_DISEASE_en, HEALBOT_POISON_en, HEALBOT_MAGIC_en},
             [HEALBOT_CURE_POISON] = {HEALBOT_POISON_en},
             [HEALBOT_REMOVE_CURSE] = {HEALBOT_CURSE_en},
+            [HEALBOT_DISPEL_CURSE] = {HEALBOT_CURSE_en},
             [HEALBOT_ABOLISH_POISON] = {HEALBOT_POISON_en},
             [HEALBOT_CURE_DISEASE] = {HEALBOT_DISEASE_en},
             [HEALBOT_ABOLISH_DISEASE] = {HEALBOT_DISEASE_en},

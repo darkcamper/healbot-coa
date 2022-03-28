@@ -58,6 +58,8 @@ HEALBOT_SG_TOUCH_OF_LIGHT               = GetSpellInfo(804251) or "Guidance: Tou
 HEALBOT_SG_CALAMITY                     = GetSpellInfo(804249) or "Guidance: Calamity";
 HEALBOT_SHATTER_CURSE                   = GetSpellInfo(804067) or "Shatter Curse";
 HEALBOT_DEVOTION                        = GetSpellInfo(500152) or "Devotion";
+HEALBOT_DIVINE_VISION                   = GetSpellInfo(800234) or "Divine Vision";
+HEALBOT_LIGHTWARD                       = GetSpellInfo(800233) or "Lightward";
 
 HEALBOT_VOODOO_ALCHEMY                  = GetSpellInfo(800195) or "Voodoo Alchemy";
 HEALBOT_GIFT_OF_THE_LOA                 = GetSpellInfo(500016) or "Gift of the Loa";
@@ -71,6 +73,8 @@ HEALBOT_FROG_VENOM                      = GetSpellInfo(802969) or "Frog Venom";
 HEALBOT_STRANGE_ELIXIR                  = GetSpellInfo(801670) or "Strange Elixir";
 HEALBOT_PANTHER_POUNCE                  = GetSpellInfo(802981) or "Panther's Pounce";
 HEALBOT_REVITALIZE                      = GetSpellInfo(801667) or "Revitalize";
+HEALBOT_SNAKEBLOOD_BREW                 = GetSpellInfo(801696) or "Snakeblood Brew";
+HEALBOT_FISHBONES_ALLY                  = GetSpellInfo(802971) or "Fishbones Ally";
 
 HEALBOT_REVERSE_WOUND                   = GetSpellInfo(801303) or "Reverse Wound";
 HEALBOT_ACCELERATED_RECOVERY            = GetSpellInfo(800857) or "Accelerated Recovery";
@@ -103,6 +107,10 @@ HEALBOT_DEBUFF_SLIGHTLY_DIZZY           = GetSpellInfo(804410) or "Slightly Dizz
 
 HEALBOT_CUSTOM_CAT_COA  = "Conquest of Azeroth";
 
+--- Ascension Spells ---
+HEALBOT_CAUTERIZING_FIRE                = GetSpellInfo(86510) or "Cauterizing Fire";
+HEALBOT_DISPEL_CURSE                    = GetSpellInfo(475) or "Dispel Curse";
+HEALBOT_FRUGAL_DISPOSITION              = GetSpellInfo(81514) or "Frugal Disposition";
 
 HEALBOT_SILK_BANDAGE                    = GetItemInfo(6450) or "Silk Bandage";
 HEALBOT_HEAVY_SILK_BANDAGE              = GetItemInfo(6451) or "Heavy Silk Bandage";
